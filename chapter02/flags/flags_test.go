@@ -54,7 +54,8 @@ func TestCountTheWays_Setup(t *testing.T) {
 		name   string
 		fields fields
 	}{
-		{"base", fields{}},
+		// {"base", fields{}},
+		{"base-1", fields{"History", true, 8, CountTheWays{1, 2}}},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
