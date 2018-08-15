@@ -1,6 +1,6 @@
 package main
 
-import "github.com/kavemun/go-cookbook/templates"
+import "github.com/kavemun/go-cookbook/chapter01/templates"
 
 func main() {
 	if err := templates.RunTemplate(); err != nil {

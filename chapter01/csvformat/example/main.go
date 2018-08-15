@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kavemun/go-cookbook/csvformat"
+	"github.com/kavemun/go-cookbook/chapter01/csvformat"
 )
 
 func main() {

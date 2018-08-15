@@ -1,6 +1,6 @@
 package main
 
-import "github.com/kavemun/go-cookbook/bytestrings"
+import "github.com/kavemun/go-cookbook/chapter01/bytestrings"
 
 func main() {
 
